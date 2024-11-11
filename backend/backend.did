@@ -1,0 +1,4 @@
+service : {
+  isAuthenticated: (principal) -> (bool) query;
+  whoami: () -> (text);
+}

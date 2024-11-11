@@ -1,0 +1,36 @@
+.wallet-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.status-box {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+}
+
+.info-box {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+}
+
+#connect-button {
+    margin: 20px 0;
+    padding: 10px 20px;
+}
+
+.spinner-border {
+    margin: 20px auto;
+}
+
+@media (max-width: 576px) {
+    .wallet-container {
+        margin: 20px;
+        padding: 10px;
+    }
+}
